@@ -30,7 +30,8 @@ Calculation + rendering: done
 
 ## Time-series histogram
 
-An "improvement" on the grey area showing the 95% confidence interval. For each year (each 'x' value), the TS-interval will show a vertical histogram, (the bar height reported via variations shading).
+An "improvement" on the grey area showing the 95% confidence interval. For each year (each 'x' value), the TS-interval will show a vertical histogram, (the bar height reported via variations shading). 
 
-Design in progress
+One of the drivers is to see beyond a simple CI centered on the average. In particular, is the shape of the distribution changing (ex: is it getting skewed up/downwards)?
 
+Design in progress.
